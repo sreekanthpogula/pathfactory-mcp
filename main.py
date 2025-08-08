@@ -30,6 +30,6 @@ app.include_router(topics.router)
 app.include_router(engagement.router)
 app.include_router(collection.router)
 
-@app.get("/")
+@app.get("/", tags=["Health Check"], summary="Root endpoint")
 async def root():
     return {"message": "PF MCP Tools API is running"}

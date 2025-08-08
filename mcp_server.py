@@ -1,6 +1,5 @@
 from mcp.server.fastmcp import FastMCP
 import httpx
-import os
 
 # Config
 API_BASE_URL = "http://localhost:8000"  # your FastAPI server
