@@ -1,0 +1,10 @@
+[project]
+name = "pathfactory-mcp"
+version = "0.1.0"
+description = "3rd party endpoints as mcp server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.12.3",
+]
