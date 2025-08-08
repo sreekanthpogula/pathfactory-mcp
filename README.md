@@ -1,5 +1,5 @@
 # PathFactory MCP - FastAPI Microservice
-This is a FastAPI microservice for PathFactory's MCP (Microservice Content Platform). It includes endpoints for user authentication, content recommendations, engagement tracking, and more.
+This is a FastAPI microservice for PathFactory's MCP (Model Context Protocol). It includes endpoints for user authentication, content recommendations, engagement tracking, and more.
 
 ## Features
 
