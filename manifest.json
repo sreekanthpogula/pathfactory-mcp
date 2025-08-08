@@ -1,0 +1,13 @@
+{
+  "name": "PathFactory MCP Server",
+  "version": "1.0.0",
+  "description": "MCP server exposing PathFactory REST API endpoints",
+  "tools": [
+    {"name": "content_library", "description": "Fetch content library items"},
+    {"name": "recommendations", "description": "Fetch recommendations"},
+    {"name": "conversations", "description": "Fetch conversations"},
+    {"name": "topics", "description": "Fetch topics"},
+    {"name": "engagement", "description": "Fetch engagement data"},
+    {"name": "collection", "description": "Fetch collection data"}
+  ]
+}
