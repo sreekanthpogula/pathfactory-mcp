@@ -1,9 +1,9 @@
 # PathFactory MCP - FastAPI Microservice
-This is a FastAPI microservice for PathFactory's MCP (Microservice Content Platform). It includes endpoints for user authentication, content recommendations, engagement tracking, and more.
+This is a FastAPI microservice for PathFactory's MCP (Model Context Protocol). It includes endpoints for user authentication, content recommendations, engagement tracking, and more.
 
 ## Features
 
-- User authentication (login/signup)
+- User authentication (login) using Auth0
 - Content recommendations based on user preferences
 - Engagement tracking (views, likes, shares)
 
@@ -22,10 +22,11 @@ This is a FastAPI microservice for PathFactory's MCP (Microservice Content Platf
     ```bash
     uvicorn main:app --reload
     ```
-4. Access the API documentation at `http://localhost:8000/docs`
-5. Use the `/token` endpoint to obtain a JWT token for authentication.
-6. Use the token to access protected endpoints by including it in the `Authorization` header as `Bearer <token>`.
-7. Example of accessing a protected endpoint:
+4. Create a `.env` file in the root directory and add your environment variables.
+5. Access the API documentation at `http://localhost:8000/docs`
+6. Use the `/token` endpoint to obtain a JWT token for authentication.
+7. Use the token to access protected endpoints by including it in the `Authorization` header as `Bearer <token>`.
+8. Example of accessing a protected endpoint:
     ```bash
     curl -X GET "http://localhost:8000/protected-endpoint" -H "Authorization: Bearer <token>"
     ```
