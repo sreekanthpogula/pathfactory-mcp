@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "MyMCPServer": {
+      "command": "/Users/sreekanthpogula/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/sreekanthpogula/Learnings/pathfactory-mcp",
+        "run",
+        "mcp_server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
